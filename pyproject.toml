@@ -4,7 +4,7 @@ version = "1.0.0"
 description = "IDRICI MANAGER - Gestion financière personnelle"
 requires-python = ">=3.10,<3.14"
 dependencies = [
-    "flet[cli]==0.86.0",
+    "flet==0.86.0",
 ]
 
 [tool.flet]
