@@ -3,9 +3,9 @@
 name = "idricimanager"
 version = "1.0.0"
 description = "IDRICI MANAGER - Gestion financière personnelle"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.14"
 dependencies = [
-    "flet",
+    "flet==0.80.5",
 ]
 
 [tool.flet]
@@ -16,5 +16,3 @@ copyright = "Copyright (C) 2026 Idrici"
 
 [tool.flet.app]
 path = "."
-
-[tool.flet.android]
