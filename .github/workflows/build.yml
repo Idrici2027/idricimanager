@@ -32,7 +32,7 @@ jobs:
           pip install flet
 
       - name: Build APK
-        uses: flet-dev/flet-build-action@v0
+        uses: flet-dev/flet-build-action@v1
         with:
           working_directory: .
           target: apk
