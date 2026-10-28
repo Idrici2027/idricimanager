@@ -1,0 +1,20 @@
+
+[project]
+name = "idricimanager"
+version = "1.0.0"
+description = "IDRICI MANAGER - Gestion financière personnelle"
+requires-python = ">=3.10"
+dependencies = [
+    "flet",
+]
+
+[tool.flet]
+org = "com.idrici"
+product = "IDRICI MANAGER"
+company = "Idrici"
+copyright = "Copyright (C) 2026 Idrici"
+
+[tool.flet.app]
+path = "."
+
+[tool.flet.android]
